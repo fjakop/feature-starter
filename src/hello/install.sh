@@ -5,6 +5,10 @@ echo "Activating feature 'hello'"
 
 GREETING=${GREETING:-undefined}
 echo "The provided greeting is: $GREETING"
+echo "Proxy settings are"
+echo "HTTP $http_proxy"
+echo "HTTPS $https_proxy"
+echo "No $no_proxy"
 
 # The 'install.sh' entrypoint script is always executed as the root user.
 #
